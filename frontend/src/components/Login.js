@@ -91,7 +91,7 @@ const Login = () => {
 
                     <Link to = "/signup" style={linkStyle}>
                         <div class="signup_link">
-                            Not Registered ? Signup
+                            Not Registered ? Signin
                         </div>
                     </Link>
                     <center>

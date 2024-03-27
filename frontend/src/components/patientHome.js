@@ -94,13 +94,13 @@ const DoctorCard = ({ doctor }) => {
                 const newAvailabilitySlots = [];
 
                 if (!scheduleData.slot1) {
-                    newAvailabilitySlots.push('9:00 AM - 10:00 AM');
+                    newAvailabilitySlots.push('9:00 AM - 11:00 AM');
                 }
                 if (!scheduleData.slot2) {
-                    newAvailabilitySlots.push('10:00 AM - 11:00 AM');
+                    newAvailabilitySlots.push('11:00 AM - 01:00 AM');
                 }
                 if (!scheduleData.slot3) {
-                    newAvailabilitySlots.push('11:00 AM - 12:00 PM');
+                    newAvailabilitySlots.push('03:00 AM - 5:00 PM');
                 }
 
                 setavailabilitySlots(newAvailabilitySlots);
